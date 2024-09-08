@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
     display: flex;
-    align-items: flex-end;
-    border-top: 3px solid lightgray;
+    align-items: flex-start;
+    border-top: 2px solid #E8E8E8;
+    padding: 4px 1.2rem;
 `;
 
 export const StyledWrapperMenu = styled.ul`
@@ -22,7 +23,8 @@ export const StyledMenuItem = styled.li`
 
     & a {
         font-size: 0.8rem;
-        color: #3eaff7;
+        color: #3893de;
+        font-weight: 600;
     }
 
 `;

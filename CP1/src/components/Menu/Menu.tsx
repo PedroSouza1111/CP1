@@ -8,15 +8,15 @@ export const Menu = () => {
         <StyledMenu>
             <StyledWrapperMenu>
                 <StyledMenuItem>
-                    <BiHome size="1.5rem" color="#38aede" />
+                    <BiHome size="1.5rem" color="#3893de" />
                     <Link to="/">Home</Link>
                 </StyledMenuItem>
                 <StyledMenuItem>
-                    <FiFilePlus size="1.5rem" color="#38aede" />
-                    <Link to="/">Nova Lista</Link>
+                    <FiFilePlus size="1.5rem" color="#3893de" />
+                    <Link to="/lista">Nova Lista</Link>
                 </StyledMenuItem>
                 <StyledMenuItem>
-                    <BiUser size="1.5rem" color="#38aede" />
+                    <BiUser size="1.5rem" color="#3893de" />
                     <Link to="/perfil">Perfil</Link>
                 </StyledMenuItem>
             </StyledWrapperMenu>

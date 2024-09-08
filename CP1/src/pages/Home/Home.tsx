@@ -1,9 +1,10 @@
 import { Layout } from "../../components/Layout/Layout";
+import { HomeTitle } from "../../components/Title/HomeTitle";
 
 export default function Home () {
     return (
         <Layout>
-            <h1>Home</h1>
+            <HomeTitle />
         </Layout>
     )
 }
