@@ -48,19 +48,18 @@ export default function List () {
                     </Button>
                 </FormStyledDiv>
             </form>
-                {hasContent 
-                ? (
-                    <StyledSection>
-                    {values.map((value, index) => (
-                    <StyledArticle key={index}>
-                        <FaRegCircle size="1.2rem" color="#3893de" />
-                        <StyledParagraph>{value}</StyledParagraph>
-                    </StyledArticle>
-                            ))}
-                    </StyledSection>
+            {hasContent 
+            ? (
+                <StyledSection>
+                {values.map((value, index) => (
+                <StyledArticle key={index}>
+                    <FaRegCircle size="1.2rem" color="#3893de" />
+                    <StyledParagraph>{value}</StyledParagraph>
+                </StyledArticle>
+                    ))}
+                </StyledSection>
                 ) 
-                : (null)
-                }
+            : (null)}
         </Layout>
     )
 }
